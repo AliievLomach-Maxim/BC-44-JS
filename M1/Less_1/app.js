@@ -165,8 +165,8 @@
 const incomingValue = 0
 const defaultValue = 10
 
-const value = incomingValue ?? defaultValue
-console.log(value)
+// const value = incomingValue ?? defaultValue
+// console.log(value)
 
 // ⁡⁢⁣⁣​‌‍‌------------𝗘𝘅𝗮𝗺𝗽𝗹𝗲 𝟭𝟬 - Оператор % та методи рядків​⁡
 // Напиши скрипт, який переведе значення totalMinutes (кількість хвилин) в рядок у форматі годин та хвилин HH:MM.
