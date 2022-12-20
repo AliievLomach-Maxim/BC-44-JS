@@ -177,7 +177,7 @@ const defaultValue = 10
 
 // const totalMinutes = 1441
 
-// const minutes = totalMinutes % 60
-// const hours = Number.parseInt(totalMinutes / 60)
-// const strHours = `${hours}`.padStart(2, 0)
-// console.log(`${strHours}:${minutes}`)
+const minutes = totalMinutes % 60
+const hours = Number.parseInt(totalMinutes / 60)
+const strHours = `${hours}`.padStart(2, 0)
+console.log(`${strHours}:${minutes}`)
