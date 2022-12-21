@@ -208,3 +208,70 @@
 // console.log('productFromFirst', productFromFirst)
 // console.log('sumForD1', sumForD1)
 // console.log('sumForD2', sumForD2)
+
+// const atTheOldToad = {
+// 	potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
+// 	removePotion(potionName) {
+// 		// Change code below this line
+// 		const index = this.potions.indexOf(potionName)
+// 		this.potions.splice(index, 1)
+// 		return this.potions
+// 		// return this.potions.splice(this.potions.indexOf(potionName), 1);
+
+// 		// Change code above this line
+// 	},
+// }
+// console.log('atTheOldToad', atTheOldToad.removePotion('Dragon breath'))
+// // console.log(atTheOldToad.removePotion(‚Dragon breath‘))
+
+// const arr = [1, 2, 3, 4, 5, 3, 2]
+// let max = arr[0]
+
+// for (let i = 0; i < arr.length; i++) {
+// 	if (arr[i] > x) {
+// 		//1>1// 2>1 //3>2
+// 		max = arr[i]
+// 	}
+// }
+// console.log('y', y)
+
+// function findLongestWord(string) {
+// 	// Change code below this line
+// 	let arrStr = string.split(' ')
+// 	let wordLength = arrStr[0]
+// 	// let longestWord;
+
+// 	for (let i = 0; i < arrStr.length; i += 1) {
+// 		// wordLength = arrStr[1].length
+
+// 		if (arrStr[i].length > wordLength.length) {
+// 			//   longestWord = arrStr[i];
+// 			wordLength = arrStr[i]
+// 		}
+// 	}
+// 	return wordLength
+// 	// Change code above this line
+// }
+// console.log(
+// 	'findLongestWord',
+// 	findLongestWord('asd asdf asdw asdgf asdfghj! asd wq222')
+// )
+function findLongestWord(string) {
+	// Change code below this line
+	let arrStr = string.split(' ')
+	let wordLength = 0
+	let longestWord
+
+	for (let i = 0; i < arrStr.length; i += 1) {
+		wordLength = arrStr[1].length
+
+		if (arrStr[i].length > wordLength) {
+			longestWord = arrStr[i]
+
+			return longestWord
+		}
+	}
+	// Change code above this line
+}
+
+findLongestWord('The quick brown fox jumped over the lazy dog')
