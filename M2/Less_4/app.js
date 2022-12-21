@@ -19,20 +19,20 @@
 
 // 25,0 => Зайва вага
 
-// function calcBMI(weight, height) {
-// 	const newWeight = Number(weight.replace(',', '.'))
-// 	const newHeight = Number(height.replace(',', '.'))
+function calcBMI(weight, height) {
+	const newWeight = Number(weight.replace(',', '.'))
+	const newHeight = Number(height.replace(',', '.'))
 
-// 	// const index = newWeight/(newHeight*newHeight)
-// 	const index = (newWeight / Math.pow(newHeight, 2)).toFixed(1)
-// 	return index
-// }
+	// const index = newWeight/(newHeight*newHeight)
+	const index = (newWeight / Math.pow(newHeight, 2)).toFixed(1)
+	return index
+}
 
-// let infoWeight = prompt('Input pls your weight:') //12,9
-// let infoHeight = prompt('Input pls your height:') //1,8
+let infoWeight = prompt('Input pls your weight:') //12,9
+let infoHeight = prompt('Input pls your height:') //1,8
 
-// const bmi = calcBMI(infoWeight, infoHeight)
-// alert(bmi)
+const bmi = calcBMI(infoWeight, infoHeight)
+alert(bmi)
 
 // if (bmi > 18.5 && bmi < 24.9) {
 // 	alert(`Нормальна вага,  ${bmi}`)
@@ -233,7 +233,7 @@
 // function updateCourse(oldName, newName) {
 // 	if (courses.includes(oldName)) {
 // 		const index = courses.indexOf(oldName)
-		// courses.splice(index, 1, newName)
+// courses.splice(index, 1, newName)
 // 	} else {
 // 		console.log(`Курса з імʼям ${oldName} не знайдено`)
 // 	}
