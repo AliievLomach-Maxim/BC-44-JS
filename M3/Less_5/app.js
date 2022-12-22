@@ -12,11 +12,33 @@ ________________________________________________________________________________
 // виводить вміст об'єкта user у форматі ключ:значення використовуючи
 // Object.keys() та for...of
 
-// const user = {
-// 	name: 'Mango',
-// 	age: 20,
-// 	hobby: 'html',
-// 	premium: true,
+const user = {
+	name: 10,
+	age: 20,
+	hobby: 15,
+	premium: 23,
+}
+
+// user['name']
+// user.name
+// console.log('user', user)
+
+// const newUser = Object.create(user)
+// const newUserArr = Object.keys(newUser)
+// for (const newEl of newUserArr) {
+// 	console.log('newEl', newEl)
+// }
+
+// for (const prop in user) {
+// 	// console.log('prop', prop) //'age'
+// 	console.log('user[prop]', user[prop] + 10) //user['name']=>user['age']....
+// }
+
+// const arrOfKeys = Object.entries(user)
+
+// for (const key of arrOfKeys) {
+// 	console.log('key', key)
+// 	// console.log('user[key]', user[key])
 // }
 
 // user.mood = 'happy'
@@ -42,7 +64,12 @@ ________________________________________________________________________________
 // 	Pete: 130,
 // }
 
-// const sum =
+// const salary = Object.values(salaries)
+// let sum = 0
+// for (const value of salary) {
+// 	sum += value
+// }
+// console.log('sum', sum)
 _______________________________________________________________________________________________________________________________________
 _______________________________________________________________________________________________________________________________________
 
