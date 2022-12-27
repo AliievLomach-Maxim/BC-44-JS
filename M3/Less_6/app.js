@@ -242,3 +242,33 @@ ________________________________________________________________________________
 // 		friendCount: 20,
 // 	})
 // )
+
+// const products = [
+// 	{ name: 'Radar', price: 1300, quantity: 4 },
+// 	{ name: 'Scanner', price: 2700, quantity: 3 },
+// 	{ name: 'Droid', price: 400, quantity: 7 },
+// 	{ name: 'Grip', price: 1200, quantity: 9 },
+// ]
+
+// function getAllPropValues(propName) {
+// 	const allValues = []
+
+// 	for (const oneProd of products) {
+// 		allValues.push(oneProd[propName])
+// 	}
+// 	console.log(allValues)
+// }
+
+// getAllPropValues('name')
+// getAllPropValues('price')
+// getAllPropValues('quantity')
+
+const students = [
+	{ name: 'Манго', courses: ['математика', 'фізика'] },
+	{ name: 'Полі', courses: ['інформатика', 'математика'] },
+	{ name: 'Ківі', courses: ['фізика', 'біологія'] },
+]
+
+const allCourses = students.flatMap((student) => student.courses)
+// ['математика', 'фізика', 'інформатика', 'математика', 'фізика', 'біологія'];
+console.log(allCourses)
