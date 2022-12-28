@@ -275,8 +275,88 @@ const cars2 = [
 
 // console.log(getTotalAmount(numbers))
 
-const names = ['Alex', 'Maxim', 'Oleg', 'Jim', 'Scotch']
+// const names = ['Alex', 'Maxim', 'Oleg', 'Jim', 'Scotch']
 
-const createStr = (arr) => arr.reduce((acc, el) => (acc += el + '! '), '')
+// const createStr = (arr) => arr.reduce((acc, el) => (acc += el + '! '), '')
 
-console.log('createStr', createStr(names))
+// console.log('createStr', createStr(names))
+
+// function main(a, b, clbFn) {
+// 	const newB = clbFn(b)
+// 	return a + newB
+// }
+
+// function main(a, b, clbFn) {
+// 	return a + clbFn(b)
+// // }
+
+// const main = (a, b, clbFn) => a + clbFn(b)
+
+// function secondFn(b) {
+// 	return b + 10
+// }
+
+// function thirdFn(b) {
+// 	return b + 100
+// }
+
+// console.log('first', main(10, 20, secondFn))
+// console.log('first', main(10, 20, thirdFn))
+
+const main = (a, b, clbFn) => a + clbFn(b)
+
+// console.log(
+// 	'first',
+// 	main(10, 20, function (b) {
+// 		return b + 10
+// 	})
+// )
+// console.log(
+// 	'first',
+// 	main(10, 20, (b) => b + 10)
+// )
+
+// const arr = [1, 2, 3]
+// arr.map((b) => {
+// 	console.log('b', b)
+// })
+
+// const arr = [12, 13, 14, 15, 16, 17]
+
+// let total = 0
+// arr.map((number) => {
+// 	total += number
+// })
+// console.log('total', total)
+
+// const result = arr.reduce((sum, el) => {
+// 	return sum + el
+// }, 0)
+// console.log('result', result)
+
+// const testArr = [
+// 	{ number: 999 },
+// 	{ number: 25 },
+// 	{ number: 26 },
+// 	{ number: 27 },
+// 	{ number: 29 },
+// ]
+// let sum = 0
+// testArr.map((el) => {
+// 	sum += el.number
+// })
+// console.log('sum', sum)
+
+// const result = testArr.reduce((sum, el, index, arr) => {
+// 	if (index === arr.length - 1) {
+// 		return (sum += el.number + arr[0].number ** 2)
+// 	}
+// 	return (sum += el.number)
+// }, 0)
+// console.log('result', result)
+
+// testArr
+// 	.map((el) => el.number)
+// 	.reduce((acc, el, index, arr) => {
+// 		console.log('arr', arr)
+// 	})
