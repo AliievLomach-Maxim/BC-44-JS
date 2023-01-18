@@ -1,0 +1,25 @@
+{
+	"name": "less-15",
+	"version": "1.0.0",
+	"description": "test project",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack",
+		"start": "webpack serve --open",
+		"watch": "webpack --watch"
+	},
+	"author": "Maxim",
+	"license": "ISC",
+	"dependencies": {
+		"lodash": "^4.17.21",
+		"webpack": "^5.75.0",
+		"webpack-cli": "^5.0.1",
+		"webpack-dev-server": "^4.11.1"
+	},
+	"devDependencies": {
+		"css-loader": "^6.7.3",
+		"html-webpack-plugin": "^5.5.0",
+		"style-loader": "^3.3.1"
+	}
+}
