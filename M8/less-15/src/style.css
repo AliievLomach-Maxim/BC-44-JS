@@ -1,5 +1,11 @@
 * {
 	margin: 0;
 	padding: 0;
-	background-color: rgb(139, 139, 139);
+	/* background-color: rgb(139, 139, 139); */
+}
+
+button,
+input {
+	padding: 10px;
+	margin: 10px;
 }
