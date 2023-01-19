@@ -1,8 +1,8 @@
 import './style.css'
-
-import getInitialValues from './scripts/getInitialValues'
-import './scripts/domElements'
-import './scripts/form'
+import './scripts/date'
+// import getInitialValues from './scripts/getInitialValues'
+// import './scripts/domElements'
+// import './scripts/form'
 
 // 1 -  input  for text
 // 2 - input type number
@@ -123,4 +123,4 @@ import './scripts/form'
 
 // ============
 
-getInitialValues()
+// getInitialValues()
