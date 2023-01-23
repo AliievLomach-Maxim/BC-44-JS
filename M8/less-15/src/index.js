@@ -1,5 +1,7 @@
 import './style.css'
-import './scripts/date'
+import './scripts/fetch'
+// import './scripts/promise'
+// import './scripts/date'
 // import getInitialValues from './scripts/getInitialValues'
 // import './scripts/domElements'
 // import './scripts/form'
