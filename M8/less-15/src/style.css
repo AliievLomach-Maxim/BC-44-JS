@@ -16,3 +16,14 @@ h2 {
 	text-align: center;
 	margin: 20px;
 }
+
+li {
+	border: 2px solid black;
+	margin: 10px;
+	list-style-type: none;
+}
+li.pagination {
+	display: inline-block;
+	margin: 20px;
+	border: none;
+}

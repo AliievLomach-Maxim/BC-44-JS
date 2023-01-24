@@ -1,5 +1,6 @@
 import './style.css'
-import './scripts/fetch'
+import './scripts/news/createNews'
+// import './scripts/fetch'
 // import './scripts/promise'
 // import './scripts/date'
 // import getInitialValues from './scripts/getInitialValues'
