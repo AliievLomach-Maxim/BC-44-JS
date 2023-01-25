@@ -1,0 +1,21 @@
+.card {
+	display: inline-block;
+	width: 300px;
+	border: 2px solid black;
+	margin: 6px;
+	padding: 12px;
+}
+
+.card > h1 {
+	color: tomato;
+}
+
+.phone {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.website {
+	text-decoration: none;
+	color: black;
+}

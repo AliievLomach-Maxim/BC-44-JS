@@ -1,5 +1,6 @@
 import './style.css'
-import './scripts/news/createNews'
+import './scripts/users/users'
+// import './scripts/news/createNews'
 // import './scripts/fetch'
 // import './scripts/promise'
 // import './scripts/date'
