@@ -27,3 +27,21 @@ li.pagination {
 	margin: 20px;
 	border: none;
 }
+
+.inputData {
+	margin: 0 auto;
+	width: 300px;
+}
+.create-card {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+	justify-content: center;
+}
+
+.btn-create {
+	border: none;
+	background: black;
+	color: white;
+	border-radius: 25px;
+}
