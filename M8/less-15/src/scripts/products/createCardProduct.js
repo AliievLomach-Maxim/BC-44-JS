@@ -21,7 +21,7 @@ function handleSubmit(e) {
 	createDataObj(e.target.elements)
 }
 
-function createDataObj({ title, price, description }) {
+function createDataObj({ title, price, description, idCard }) {
 	addCard(
 		{
 			title: title.value,
