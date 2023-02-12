@@ -1,6 +1,7 @@
 import './style.css'
+import './scripts/additionalTask/additionalTask'
 // import './scripts/products/allFuncProduct'
-import './scripts/products/products'
+// import './scripts/products/products'
 // import './scripts/news/createNews'
 // import './scripts/fetch'
 // import './scripts/promise'
